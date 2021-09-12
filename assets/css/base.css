@@ -1,0 +1,32 @@
+:root{
+    --while-color: #fff;
+    --black-color: #000; 
+    --text-color: #333; 
+}
+*{ 
+    box-sizing: inherit;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+    /* Độ cao của chữ */
+    line-height: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+    margin: 0;
+}
+.grid{
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+.grid__full-width{
+    width:100%;
+}
+.grid__row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.app{
+    margin: 0 0;
+}
