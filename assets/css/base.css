@@ -30,3 +30,12 @@ html{
 .app{
     margin: 0 0;
 }
+/* animatiobn */
+@keyframes fadein{
+     from {
+    opacity: 0;
+    }
+    to{
+    opacity: 1;
+    }
+}
