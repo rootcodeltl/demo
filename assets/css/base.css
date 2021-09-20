@@ -41,3 +41,51 @@ html{
     opacity: 1;
     }
 }
+/.dangky__form{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+} 
+.dangky__form--lopmo{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: flex;
+} 
+.dangky__form--lopmo--dangnhap{
+    width: 400px;
+    height: 400px;
+    background-color: var(--while-color);
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+.form__dangky__item1{
+
+}
+.form__dangky__item1{
+    padding: 0 20px;
+}
+.form__dangky__item1--dangky{
+    display: flex;
+    justify-content: space-between;
+}
+.item__dangky{
+    font-size: 16px;
+    font-weight: 600;
+}
+.item__dangnhap{
+font-size: 16px;
+color: rgb(238, 77, 45);
+font-weight: 600px;
+}
+.form__dangky__item2{
+    position: relative;
+    background-color: silver;
+    height: 150px;
+    width: 100px;
+    bottom: 0;
+}
