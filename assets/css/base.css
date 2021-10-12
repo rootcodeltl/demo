@@ -6,7 +6,11 @@
     --primary-color:rgb(238, 77, 45);
     --navbar-height: 34px;
     --header-height:120px;
+    --product-height:333px;
+    --product-width:20%;
+    --product-width-img:100%;
     --header-with-search:calc(var(--header-height)-var(--navbar-height));
+    --product-img-height:192px;
 }
 *{ 
     box-sizing: inherit;
@@ -52,6 +56,17 @@ html{
         transform: scale(var(--growth-to));
     }
 }
+@keyframes hidden{
+    from{
+        opacity: 0;
+        scale: 0;
+    }
+    to{
+        opacity: 1;
+        scale: 1;
+    }
+}
+
 .modal{
     position: fixed;
     top:0;
